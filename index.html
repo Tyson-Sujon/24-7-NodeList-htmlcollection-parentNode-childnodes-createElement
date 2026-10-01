@@ -15,16 +15,20 @@
     #food-title {
         color: green;
     }
-    .bg-color{
+
+    .bg-color {
         background-color: rebeccapurple;
     }
-    .bold{
-       font-weight: 900;
+
+    .bold {
+        font-weight: 900;
     }
-    .big{
+
+    .big {
         font-size: 3em;
     }
-    .food .foreign{
+
+    .food .foreign {
         font-weight: 700;
     }
 </style>
@@ -75,18 +79,20 @@
                 <li class="kebu">lelo</li>
             </ul>
         </section>
+
         <section id="players-container">
-   
-        <h1>players</h1>
-        <ul>
-            <li>Messi</li>
-            <li>pele</li>
-            <li>Ronaldo</li>
-            <li>Embape</li>
-            <li>chele</li>
-        </ul>
-  
-</section>
+
+            <h1>players</h1>
+            <ul class="player-list">
+                <li>Messi</li>
+                <li>pele</li>
+                <li>Ronaldo</li>
+                <li>Embape</li>
+                <li>chele</li>
+            </ul>
+
+        </section>
+
     </main>
     <footer>
         <div class="st1">
@@ -98,8 +104,8 @@
         </div>
     </footer>
     <script>
-const TraversEdge=document.querySelector('footer > .st1 > .st2 > .st3 .st4');
-console.log ('final round',TraversEdge.innerText);
+        const TraversEdge = document.querySelector('footer > .st1 > .st2 > .st3 .st4');
+        console.log('final round', TraversEdge.innerText);
 
         console.log('document object model');
         console.log('document object model');
@@ -133,15 +139,15 @@ console.log ('final round',TraversEdge.innerText);
         foodTitelH1.innerText = 'Khichuri Ranna khabo';
         console.log(foodTitelH1.innerText);
         // ------ text color,bg css style by javascript
-       foodTitelH1.style.color ='#F54927';
-       foodTitelH1.style.backgroundColor='#4D3D3C';
-       foodTitelH1.style.padding='30px';
-       foodTitelH1.style.textAlign='center';
+        foodTitelH1.style.color = '#F54927';
+        foodTitelH1.style.backgroundColor = '#4D3D3C';
+        foodTitelH1.style.padding = '30px';
+        foodTitelH1.style.textAlign = 'center';
 
-// ................. access any class by id or class ----------
-       foodTitelH1.classList.add('bold');
-       foodTitelH1.classList.add('big');
-       
+        // ................. access any class by id or class ----------
+        foodTitelH1.classList.add('bold');
+        foodTitelH1.classList.add('big');
+
 
 
         // for ul ,li section-------------------------
@@ -180,21 +186,23 @@ console.log ('final round',TraversEdge.innerText);
         }
         const oneItem = document.querySelector('.findOutone .kebu');
         console.log('hello-text:', oneItem.innerText);
-        const newItems=document.getElementById('x');
-        console.log('newItems',newItems);
+        const newItems = document.getElementById('x');
+        console.log('newItems', newItems);
 
         // --------------make dynamic class list---------------
         // --------------this class should be disappeared in html page---------------
-        
 
-        const start=document.getElementById('listing');
-       console.log(start);
-       const classAdded=start.classList.add('bold');
-       const classFind=start.getAttribute('class');
-       console.log(classFind);
-       console.log(' mr.pritom');
-       
-         
+
+        const start = document.getElementById('listing');
+        console.log(start);
+        const classAdded = start.classList.add('bold');
+        const classFind = start.getAttribute('class');
+        console.log(classFind);
+        console.log(' mr.pritom');
+
+
+        // ---------------------video 24-7- NodeList-htmlcollection-----
+
 
 
     </script>
@@ -202,7 +210,7 @@ console.log ('final round',TraversEdge.innerText);
 
 
 
-<script src="js/hello.js">'outer script'</script>
+    <script src="js/child.js"></script>
 </body>
 
 </html>
