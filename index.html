@@ -83,7 +83,7 @@
         <section id="players-container">
 
             <h1>players</h1>
-            <ul class="player-list">
+            <ul id="player-list">
                 <li>Messi</li>
                 <li>pele</li>
                 <li>Ronaldo</li>
@@ -127,7 +127,7 @@
 
         const tryNewTag = document.getElementsByTagName('div');
         console.log(tryNewTag);
-        for (start of tryNewTag) {
+        for (const start of tryNewTag) {
             // ata html tag soho ashbe
             console.log('for innerHTML=', start.innerHTML);
             // ata sudhu plain text ashbe
